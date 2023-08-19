@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color:rgb(236, 243, 241);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
+  margin-top: 5%;
+  width: 450px;
+  height: 100%;
+  padding: 20px;
+ box-shadow: 3px 3px 8px 0px grey;
+ border-radius: 10px;
+  background-color: #FFFFFF;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.login input{
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 350px;
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus{
+  outline: none;
+}
+h1{
+  margin-bottom: 20px;
+}
+button{
+  width: 370px;
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background:linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+#forgot{
+  color: #463EEA;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+span{
+  color: #463EEA;
+ cursor: pointer;
+}
+#signup{
+  margin-top: 20px;
 }
