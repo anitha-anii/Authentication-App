@@ -61,3 +61,33 @@ span{
 #signup{
   margin-top: 20px;
 }
+
+
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+@media (max-width: 480px) {
+  .profile {
+    padding: 10px;
+  }
+
+  .profile h1 {
+    font-size: 20px;
+  }
+
+  .profile p {
+    font-size: 14px;
+  }
+}

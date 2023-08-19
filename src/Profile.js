@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 function Profile() {
   const [user, setUser] = useState({});
 
@@ -15,7 +16,7 @@ function Profile() {
   }, []);
 
   return (
-    <div>
+    <div className="profile"> 
       <h1>Profile</h1>
       <p>Name: {user.name}</p>
       <p>Email: {user.email}</p>
@@ -25,3 +26,4 @@ function Profile() {
 }
 
 export default Profile;
+
